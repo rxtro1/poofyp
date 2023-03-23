@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Have fun with math, enjoy our student specialized calculator. Only on fishme/mediaology."/>
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="/icon.png" type="image/png">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5666272291067195"
+     crossorigin="anonymous"></script>
+     <script>
+        document.cookie = 'cross-site-cookie2=noneCookie; SameSite=None; Secure';
+     </script>
+    <script src="cloak.js?v=0"></script>
+    <script async src="https://arc.io/widget.min.js#RqQiAHK7"></script>
+    <script src="https://www.hCaptcha.com/1/api.js" async defer></script>
+</head>
+<body>
+<link rel="stylesheet" href="/calcs/calc2.css" />
+
+<form name="form1" class="calci" action="./" method="POST">
+    <input disabled type="text" name="answer" id="display" />
+    <br />
+
+    <input type="button" value="C" onclick="form1.answer.value=''" class="button" />
+
+    <input type="button" class="button" value="pi" onclick="openInNewTab(window.location.origin + '/k12/')" />
+    <input type="button" class="offcolured" value=">" onclick="openInNewTab(window.location.origin + '/main/')" />
+
+    <input type="button" class="operator" value="/" onclick="form1.answer.value+='/'" />
+    <br />
+    <input type="button" class="button" value="7" onclick="form1.answer.value+='7'" />
+    <input type="button" class="button" value="8" onclick="form1.answer.value+='8'" />
+    <input type="button" class="button" value="9" onclick="form1.answer.value+='9'" />
+
+    <input type="button" class="operator" value="*" onclick="form1.answer.value+='*'" />
+    <br />
+
+    <input type="button" class="button" value="4" onclick="form1.answer.value+='4'" />
+    <input type="button" class="button" value="5" onclick="form1.answer.value+='5'" />
+
+    <input type="button" class="button" value="6" onclick="form1.answer.value+='6'" />
+
+    <input type="button" class="operator" value="-" onclick="form1.answer.value+='-'" />
+    <br />
+    <input type="button" class="button" value="1" onclick="form1.answer.value+='1'" />
+    <input type="button" class="button" value="2" onclick="form1.answer.value+='2'" />
+
+    <input type="button" class="button" value="3" onclick="form1.answer.value+='3'" />
+
+    <input type="button" class="operator" value="+" onclick="form1.answer.value+='+'" />
+    <br />
+
+    <input type="button" class="button" value="0" onclick="form1.answer.value+='0'" id="zero" />
+
+    <input type="button" class="button" value="." onclick="form1.answer.value+='.'" />
+
+    <input type="button" class="operator" value="=" onclick="form1.answer.value=eval(form1.answer.value)" />
+
+    <div class="foot">Site: FoxMoss | Design: Tech Projects</div>
+    <div class="foot"><a href="mailto:foxmoss@mediaology.com">foxmoss@mediaology.com</a></div>
+</form>
+</body>
+</html>
